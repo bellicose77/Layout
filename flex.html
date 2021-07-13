@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .flex-container {
+
+            background-color: DodgerBlue;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: column wrap; */
+            /* flex-flow: column wrap-reverse; */
+            /* flex-flow: column-reverse wrap-reverse; */
+            /* flex-flow: row wrap; */
+            /* flex-flow: row wrap-reverse; */
+            /* flex-flow: row-reverse wrap; */
+            flex-flow: row-reverse wrap-reverse;
+
+
+
+
+        }
+
+        .flex-container div {
+            /* display: flex;
+            flex-wrap: wrap; */
+            background-color: #f1f1f1;
+            width: 150px;
+            height: 75px;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+    </div>
+    <p style="color: black;">A Flexible Layout must have a parent element with the <em>display</em> property set to
+        <em>flex</em>.
+    </p>
+
+    <p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+</body>
+
+</html>
